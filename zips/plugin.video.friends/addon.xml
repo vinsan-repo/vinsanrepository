@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.friends"
+version="1.0.0"
+name="F.R.I.E.N.D.S"
+provider-name="vinsan">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.codequick" version="1.0.2"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="addon.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">F.R.I.E.N.D.S Video Add-on</summary>
+  <description lang="en_GB">Video Add-on to watch F.R.I.E.N.D.S complete season (01 - 10) </description>
+  <disclaimer lang="en_GB">Powered by https://watchfriendsonline.org</disclaimer>
+  <assets>
+    <icon>addon-icon.png</icon>
+    <fanart>fanart.jpg</fanart>    
+  </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
+</addon>
